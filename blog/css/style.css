@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+
+.box {
+    float: left;
+    width: 33.33333333333333333333333333333333%;
+    padding: 50px;
+    text-align: center;
+}
+
+.socialMedia {
+    width: 60px;
+}
+
+#navbar {
+    background-color: #444;
+    overflow: auto;
+}
+
+#logo {
+    font-family: 'New Tegomin', serif;
+    font-size: 40px;
+    color: rgb(5, 33, 58);
+    max-width: 900px;
+    margin: auto;
+    padding: 0px 10px;
+    float: left;
+}
+
+#navbar ul {
+    display: block;
+    float: right;
+}
+
+#navbar ul li {
+    list-style: none;
+    float: left;
+}
+
+.navbarLinks {
+    display: block;
+    padding: 30px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar ul li a:hover,
+.selected {
+    background-color: #333;
+    color: coral;
+}
+
+#navbar ul li:hover {
+    cursor: pointer;
+}
+
+#sectionForm {
+    width: 65%;
+    float: left;
+}
+
+.asideBar {
+    margin-top: 130px;
+    margin-right: 50px;
+    width: 25%;
+    float: right;
+}
+
+.asideBar a {
+    text-decoration: none;
+    color: teal;
+}
+
+.asideBar li:hover {
+    background-color: #dfb9b9;
+    color: rebeccapurple;
+}
+
+.asideBar p {
+    display: block;
+    float: right;
+    margin: 30px;
+    margin-right: 120px;
+}
+
+.asideBar img {
+    margin: 10px;
+    float: left;
+}
+
+.asideBar ul {
+    background-color: #f2f2f2;
+}
+
+.asideBar ul li {
+    border-bottom: 1px solid #dbc1c1;
+}
+
+
+#sectionForm {
+    margin-bottom: 20px;
+}
+
+#sectionForm h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#sectionForm .formGroup {
+    margin-bottom: 10px;
+}
+
+#sectionForm .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#sectionForm .formGroup input,
+#sectionForm .formGroup textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+#sectionForm .formGroup textarea {
+    height: 200px;
+}
+
+#sectionForm .formGroup input:focus,
+#sectionForm .formGroup textarea:focus {
+    outline: none;
+    border-color: coral;
+}
+
+#sectionForm button {
+    margin: 0px 40%;
+}
+
+#sectionForm button:hover {
+    cursor: pointer;
+}
+
+#contactInfo {
+    color: #fff;
+}
+
+#infoContactHead {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    background-color: #333;
+    border: none;
+    margin-bottom: 20px
+}
+
+#sumbitBtn {
+    padding: 13px 20px;
+}
+
+.btn:hover {
+    background-color: coral;
+    color: #333;
+}
+
+.bgDark {
+    background: #333;
+}
+
+#formContainer {
+    margin-left: 20px;
+}
+
+.musicsH2 {
+    margin: 10px 0;
+    margin-right: 200px;
+    text-align: center;
+    color: chocolate;
+}
+
+#rapSection p {
+    display: block;
+    font-family: 'New Tegomin', serif;
+    line-height: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#rapSection {
+    float: left;
+    width: 70%;
+}
+
+.paddingX30 {
+    padding: 20px 0px;
+}
+
+.raps {
+    display: block;
+    margin: 10px 0px 10px 10%;
+}
+
+.asideRapAndAbout {
+    margin-right: 10px;
+    position: sticky;
+    top: 10px;
+}
+
+.asideRapAndAbout ul a {
+    text-decoration: none;
+    color: teal;
+}
+
+.asideRapAndAbout ul {
+    background-color: #f2f2f2;
+}
+
+.asideRapAndAbout ul li {
+    padding: 18px;
+    border-bottom: 1px solid #dbc1c1;
+}
+
+.asideRapAndAbout li:hover {
+    background-color: #dfb9b9;
+    color: rebeccapurple;
+}
+
+#aboutSection {
+    width: 70%;
+    float: left;
+    overflow: auto;
+}
+
+#asideBarAbout {
+    display: block;
+    box-sizing: border-box;
+    float: right;
+    width: 27%;
+    margin-top: 75px;
+}
+
+#asideBarAbout li {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+#aboutSection {
+    display: block;
+    box-sizing: border-box;
+    margin: 10px;
+    font-family: 'New Tegomin', serif;
+}
+
+#aboutSection h1,
+#aboutSection h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: rgba(148, 22, 22);
+}
+
+#aboutSection h1 {
+    margin-top: 0px;
+}
+
+
+#aboutSection p {
+    line-height: 1.9em;
+}
+
+#iDontKnow {
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+
+#iDontKnow img {
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.containerHome {
+    width: 900px;
+    margin: auto;
+}
+
+.btnLinks {
+    display: inline block;
+    padding: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px 10px;
+    margin-bottom: 0px;
+}
+
+#home h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'New Tegomin', serif;
+    color: rgb(5, 33, 58);
+}
+
+
+.boxHome {
+    margin: 10px;
+    border: #9b3232 2px solid;
+    width: 400px;
+    font-family: 'New Tegomin', serif;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.boxHome h3 {
+    color: rgb(16, 124, 124);
+    margin: 10px;
+}
+
+.boxHome p {
+    color: rgb(54, 13, 82);
+    margin: 10px;
+}
+
+#seyhoResim {
+    background: url(./img/seyhoresim.png) center center/cover no-repeat;
+    width: 100%;
+    height:700px;
+}
+
+
+.mainFooter {
+    text-align: center;
+    background-color: #444;
+    color: #f4f4f4;
+    padding: 20px;
+}
